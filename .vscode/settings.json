@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "files.eol": "\n",
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "explorer.excludeGitIgnore": true,
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  "editor.rulers": [100],
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "search.exclude": {
+    "**/.turbo": true,
+    "**/node_modules": true,
+    "**/dist": true
+  }
+}
