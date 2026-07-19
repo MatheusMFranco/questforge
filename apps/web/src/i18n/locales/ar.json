@@ -2,6 +2,10 @@
   "theme": {
     "light": "فاتح",
     "dark": "داكن",
-    "system": "النظام"
+    "system": "النظام",
+    "toggle": "تبديل السمة"
+  },
+  "language": {
+    "toggle": "تغيير اللغة"
   }
 }

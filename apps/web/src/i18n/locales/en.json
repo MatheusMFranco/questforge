@@ -2,6 +2,10 @@
   "theme": {
     "light": "Light",
     "dark": "Dark",
-    "system": "System"
+    "system": "System",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "toggle": "Change language"
   }
 }

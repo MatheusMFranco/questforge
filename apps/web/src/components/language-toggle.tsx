@@ -24,7 +24,7 @@ const languages = [
 ] as const;
 
 export function LanguageToggle() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const currentLanguage = i18n.resolvedLanguage ?? 'pt';
 
@@ -32,8 +32,15 @@ export function LanguageToggle() {
     <DropdownMenu>
       <DropdownMenuTrigger
         render={
-          <Button variant="outline" size="icon">
+          <Button
+            variant="outline"
+            size="icon"
+            title={t('language.toggle')}
+            aria-label={t('language.toggle')}
+            className="cursor-pointer"
+          >
             <Languages className="h-5 w-5" />
+            <span className="sr-only">{t('language.toggle')}</span>
           </Button>
         }
       />
