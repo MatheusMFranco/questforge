@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System",
+    "toggle": "Design wechseln"
+  },
+  "language": {
+    "toggle": "Sprache ändern"
+  }
+}

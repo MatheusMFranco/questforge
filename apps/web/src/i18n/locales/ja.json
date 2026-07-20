@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム",
+    "toggle": "テーマを切り替える"
+  },
+  "language": {
+    "toggle": "言語を変更"
+  }
+}

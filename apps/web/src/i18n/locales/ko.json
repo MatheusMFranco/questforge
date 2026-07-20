@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "light": "라이트",
+    "dark": "다크",
+    "system": "시스템",
+    "toggle": "테마 변경"
+  },
+  "language": {
+    "toggle": "언어 변경"
+  }
+}

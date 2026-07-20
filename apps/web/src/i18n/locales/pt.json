@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema",
+    "toggle": "Alternar tema"
+  },
+  "language": {
+    "toggle": "Alterar idioma"
+  }
+}
