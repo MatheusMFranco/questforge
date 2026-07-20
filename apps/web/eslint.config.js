@@ -20,10 +20,8 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
-
-  // SEMPRE POR ÚLTIMO
   {
-    files: ['src/components/ui/**/*.tsx'],
+    files: ['src/components/ui/**/*.tsx', 'src/routes/**/*.tsx'],
     rules: {
       'react-refresh/only-export-components': 'off',
     },
