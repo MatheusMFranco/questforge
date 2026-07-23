@@ -6,12 +6,12 @@ import './i18n';
 import './styles/globals.css';
 
 import { router } from './router';
-import { ThemeProvider } from './components/theme-providers';
+import { AppProviders } from './app/app-providers';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+    <AppProviders>
       <RouterProvider router={router} />
-    </ThemeProvider>
+    </AppProviders>
   </StrictMode>,
 );
